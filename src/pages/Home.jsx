@@ -125,7 +125,7 @@ const Home = () => {
             <div className="bg-gray-700 p-6 rounded-xl shadow-md">
                 
                 <Link
-                    to='/skills'
+                    to='/projects'
                     className={`text-sm text-indigo-400 hover:underline`}
                 >
                     View all Projects
