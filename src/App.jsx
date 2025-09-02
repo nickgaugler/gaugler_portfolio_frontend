@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import RProject from './pages/projects/r-project';
 import Contact from './pages/Contact';
 import Sidebar from './components/SideNavigation';
 // import FooterMenu from './components/Footer';
@@ -54,12 +55,12 @@ function App() {
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
-                {/* <Route path="code">
-                    <Route path="demo" element={<Demo />} />
-                    <Route path="join" element={<Join />} />
+                <Route path="projects">
+                    <Route path="r-project" element={<RProject />} />
+                    {/* <Route path="join" element={<Join />} />
                     <Route path="interview" element={<Interview />} />
-                    <Route path="zoom-test" element={<ZoomSampleTestPage />} />
-                </Route> */}
+                    <Route path="zoom-test" element={<ZoomSampleTestPage />} /> */}
+                </Route>
             </Routes>
 
             </div>
