@@ -12,6 +12,7 @@ import AboutMe from './pages/AboutMe';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import RProject from './pages/projects/r-project';
+import PygameProject from './pages/projects/pygame-project';
 import Contact from './pages/Contact';
 import Sidebar from './components/SideNavigation';
 // import FooterMenu from './components/Footer';
@@ -57,6 +58,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="projects">
                     <Route path="r-project" element={<RProject />} />
+                    <Route path="pygame-project" element={<PygameProject />} />
                     {/* <Route path="join" element={<Join />} />
                     <Route path="interview" element={<Interview />} />
                     <Route path="zoom-test" element={<ZoomSampleTestPage />} /> */}

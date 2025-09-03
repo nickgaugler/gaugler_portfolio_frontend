@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
-import realtimeImage from "../assets/images/icon-realtime.jpg"
-import collaborationImage from "../assets/images/icon-collaboration.jpg"
-import analyticsImage from "../assets/images/icon-analytics.jpg"
 import D3Treemap from "../components/Treemap.jsx";
 import {
     RadialBarChart,

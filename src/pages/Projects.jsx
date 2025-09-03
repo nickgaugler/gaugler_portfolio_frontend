@@ -21,10 +21,10 @@ const Projects = () => {
       image: '../public/r_project_screenshot.svg'
     },
     {
-      id: 'python-project-1',
+      id: 'pygame-project',
       title: 'Python-Game: ',
       subtitle: 'A brief description of your project. Mention the key technologies used (e.g., Python, TensorFlow, Flask) and the problem it solved.',
-      tech: ['Python', 'pygame', 'Data Analytics'],
+      tech: ['Python', 'pygame'],
       image: 'https://placehold.co/400x200/A855F7/FFFFFF?text=Project%201'
     },
     {
