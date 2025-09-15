@@ -14,6 +14,13 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 'aiagent-project',
+      title: 'Python-AI Agent:',
+      subtitle: 'This project explores implementing a simple AI agent that will extract event details from an uploaded image and generate a downloadable calendar file.',
+      tech: ['LLM', 'Python', 'Google Cloud', 'Firebase'],
+      image: 'https://placehold.co/400x200/EC4899/FFFFFF?text=Project%201'
+    },
+    {
       id: 'r-project',
       title: 'R: Eruption Waiting Times Dashboard',
       subtitle: 'A Shiny app that visualizes waiting times between eruptions for old faithful geyser.',
@@ -21,18 +28,18 @@ const Projects = () => {
       image: '../public/r_project_screenshot.svg'
     },
     {
-      id: 'pygame-project',
-      title: 'Python-Game: ',
-      subtitle: 'A brief description of your project. Mention the key technologies used (e.g., Python, TensorFlow, Flask) and the problem it solved.',
-      tech: ['Python', 'pygame'],
-      image: 'https://placehold.co/400x200/A855F7/FFFFFF?text=Project%201'
+      id: 'bbd-project',
+      title: 'Blue Dolphins Club Website: ',
+      subtitle: 'Single-page web app used for recruiting/marketing, managing team roster and automating select coach-responsibilities',
+      tech: ['React', 'Python', 'Postgres'],
+      image: 'https://placehold.co/400x200/A855F7/FFFFFF?text=Project%202'
     },
     {
-      id: 'project-2',
-      title: 'Python-Machine Learning:',
-      subtitle: 'Another project description highlighting your ML or data science skills. Describe the methodology and the results.',
-      tech: ['Python', 'SQL', 'Data Visualization'],
-      image: 'https://placehold.co/400x200/EC4899/FFFFFF?text=Project%202'
+      id: 'pygame-project',
+      title: 'Python-Game: ',
+      subtitle: 'This project explores a simple pygame that will later be used for Machine Learning (Reinforcement).',
+      tech: ['Python', 'pygame'],
+      image: 'https://placehold.co/400x200/A855F7/FFFFFF?text=Project%203'
     },
   ];
 
